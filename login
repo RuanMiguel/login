@@ -5,17 +5,17 @@ while numero_tentativas < 3:
     login = input("Digite o login: ")
     senha = input("Digite a senha: ")
 
-    if login == "kezia" and senha == "123":
+    if login == "python" and senha == "123":
         print("Login e senha corretos")
         break
     else:
         if numero_tentativas == 3:
             print("Tentativas excedidas")
             break
-        elif login != "kezia" and senha != "123":
+        elif login != "python" and senha != "123":
             print("Login e senha incorretos")
             print()
-        elif login != "kezia":
+        elif login != "python":
             print("Login incorreto")
             print()
         elif senha != "123":
